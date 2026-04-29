@@ -47,7 +47,7 @@ function resumenCambios(cambios: Cambio[]) {
             resumen.correo++;
         }
 
-        if (cambio.tipo === "password") {
+        if (cambio.tipo === "contraseña") {
             resumen.contraseña++;
         }
     });
